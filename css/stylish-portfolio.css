@@ -16,6 +16,14 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+a {
+    color: #FCB137;
+}
+
+a:hover {
+    color: #e8a22e;
+}
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -29,7 +37,30 @@ body {
     font-weight: 700;
 }
 
+/* Spacing*/
+
+.padding-30 {
+    padding: 30px;
+}
+
+/* Bgs */
+
+.bg-light {
+    background: rgba(255, 255, 255, 0.70);
+}
+
+.bg-laranja {
+    background: #ffb478;
+    color: white;
+}
+
+.bg-verde {
+    background: #7cead4;
+    color: white;
+}
+
 /* Custom Button Styles */
+
 
 .btn-dark {
     border-radius: 0;
@@ -47,7 +78,7 @@ body {
 .btn-light {
     border-radius: 0;
     color: #333;
-    background-color: rgb(255,255,255);
+    background-color: white;
 }
 
 .btn-light:hover,
@@ -160,6 +191,7 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    background-attachment: fixed;
 }
 
 /* About */
@@ -178,13 +210,17 @@ hr.small {
     margin-bottom: 30px;
 }
 
+.service-item img {
+    margin: 0 auto;
+}
+
 /* Callout */
 
 .callout {
     display: table;
     width: 100%;
     height: 400px;
-    color: #fff;
+    color: black;
     background: url(../img/callout.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
